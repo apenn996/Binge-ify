@@ -182,7 +182,7 @@ const MediaList = ({
           }}
         >
           <img
-            src="../public/load-arrow-icon.png"
+            src="../load-arrow-icon.png"
             className="list-load-icon d-flex"
           ></img>
         </div>

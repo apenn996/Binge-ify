@@ -80,8 +80,10 @@ const SearchList = () => {
 
   const handleClick = async () => {
     handleURL();
+    console.log("handle click")
     let stringPage: string = pageNumbertoString(pageNumber);
-    if (!firstLoad) {
+    console.log(URL+"&page=" + stringPage)
+    
       try {
         const list = fetch(URL + "&page=" + stringPage, options)
           .then((response) => response.json())
@@ -93,11 +95,15 @@ const SearchList = () => {
       } catch (err: any) {
         console.error("big error");
       }
-    }
+    
+    console.log(mediaList)
     firstLoad = false;
     pageNumber++;
   };
-
+useEffect(() => {
+  
+  console.log("STATE CHANGE")
+})
   const handleSorting = (item1, item2) => {
     if (item1["popularity"] > item2["popularity"]) {
       return -1;
