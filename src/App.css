@@ -130,7 +130,7 @@
 }
 #carousel{
     opacity: .99999;
-    z-index: 5;
+    z-index: 2;
     background: rgb(0,0,0) !important;
     background: linear-gradient(7deg, rgba(0,0,0,0.7148109243697479) 0%, rgba(0,0,0,0.5859593837535014) 27%, rgba(0,0,0,0.35066526610644255) 54%, rgba(0,0,0,0.05934873949579833) 82%, rgba(255,255,255,0) 100%) !important;
     width: 100%;
