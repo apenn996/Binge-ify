@@ -366,6 +366,8 @@
 
 /* -MODAL */
 .modal-loader-button{
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
     height: 70px;
     width: 180px;
     border: none;
@@ -1160,7 +1162,7 @@ a{
     }
     .nav-list {
         width: 100%;
-        justify-content: space-around;
+        justify-content: space-between;
         
     }
     .nav-list li{
@@ -1186,7 +1188,7 @@ a{
     }
     .social-block{
         margin-top: 5px;
-        
+
     }
 }
 
