@@ -177,12 +177,7 @@
     background: rgb(0,0,0);
     background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.968236561199761) 49%, rgba(0,0,0,0.9540722552507525) 52%, rgba(0,0,0,0.8379249464688828) 60%, rgba(0,0,0,0.7047804705482029) 69%, rgba(0,0,0,0.5688031334377213) 76%, rgba(0,0,0,0.3875000172904125) 83%, rgba(0,0,0,0.16936970567568166) 91%, rgba(0,0,0,0) 99%);
 }
-.loader-parent{
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-    
-    z-index: 1000;
-}
+
 
 
 
