@@ -30,7 +30,7 @@ const ModalLoader = ({mediaList, typeofmedia, tvGenres, movieGenres, listId, myf
           // on mouse down load, detailed info from api for that media only. This works by setting clicked index to index of chosen media item and only showing MovieModal(detailed info) on click of that media item
           //however mouse down alone doesnt actually pull up modal with information. To show the modal, on mouse up, invoke the click function on the modal through code. 
           // this way a single click (up and down) loads api data and opend modal, one click (onClick) wasnt working to do both. 
-        <div key={thisMediaItemIndex} tabIndex={-1} className=" rounded p-0 overflow-hidden text "  onMouseDown = {() => {
+        <div key={thisMediaItemIndex} tabIndex={-1} className=" rounded p-0 text "  onMouseDown = {() => {
           // !# currentIndex = thisMediaItemIndex;
           setIndex(thisMediaItemIndex)
           myindex = thisMediaItemIndex;
@@ -42,7 +42,7 @@ const ModalLoader = ({mediaList, typeofmedia, tvGenres, movieGenres, listId, myf
             myRefname.current?.click()
             
             }}>
-                <button className='modal-loader-button btn btn-light rounded d-flex justify-content-center align-items-center z-3 text-black'>
+                <button className='modal-loader-button btn btn-light rounded d-flex justify-content-center align-items-center text-black'>
                     <h4>View Details</h4>
                 </button>
               {/* only generate a button and modal if the index you click equals index of list mediaItem */}
