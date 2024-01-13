@@ -194,10 +194,10 @@ const MovieModal = ({
                       <ul className="socialList">
                         {specific["homepage"] ? (
                           <a
-                            className="center mt-3"
+                            className="center "
                             href={specific["homepage"]}
                           >
-                            <li className="socialBlock ">
+                            <li className="social-block ">
                               <img src="../home-icon.png" alt="homepage icon" />{" "}
                             </li>
                           </a>
@@ -207,12 +207,12 @@ const MovieModal = ({
 
                         {externalIDs["imdb_id"] ? (
                           <a
-                            className="center mt-3"
+                            className="center "
                             href={
                               "https://imdb.com/title/" + externalIDs["imdb_id"]
                             }
                           >
-                            <li className="socialBlock ">
+                            <li className="social-block ">
                               <img src="../imdb-icon.png" alt="imdb icon" />{" "}
                             </li>
                           </a>
@@ -222,14 +222,14 @@ const MovieModal = ({
 
                         {externalIDs["instagram_id"] ? (
                           <a
-                            className="center mt-3"
+                            className="center "
                             href={
                               "https://www.instagram.com/" +
                               externalIDs["instagram_id"] +
                               "/"
                             }
                           >
-                            <li className="socialBlock ">
+                            <li className="social-block ">
                               <img
                                 src="../instagram-icon.png"
                                 alt="instagram icon"
@@ -241,10 +241,10 @@ const MovieModal = ({
                         )}
                         {externalIDs["twitter_id"] ? (
                           <a
-                            className="center mt-3"
+                            className="center "
                             href={"https://x.com/" + externalIDs["twitter_id"]}
                           >
-                            <li className="socialBlock ">
+                            <li className="social-block ">
                               <img src="../x-icon.png" alt="twitter icon" />{" "}
                             </li>
                           </a>
@@ -254,13 +254,13 @@ const MovieModal = ({
 
                         {externalIDs["facebook_id"] ? (
                           <a
-                            className="center mt-3"
+                            className="center "
                             href={
                               "https://facebook.com/" +
                               externalIDs["facebook_id"]
                             }
                           >
-                            <li className="socialBlock ">
+                            <li className="social-block ">
                               <img
                                 src="../facebook-icon.png"
                                 alt="facebook icon"

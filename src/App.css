@@ -377,6 +377,7 @@
 .modal{
     margin-left: auto;
     margin-right: 15px;
+    height: 100vh;
 }
 .my-modal{
     
@@ -746,7 +747,8 @@ a{
     width: auto;
     padding: 0%;
   }
-  .socialBlock{
+  .social-block{
+    margin-top: 15px;
     border-radius: 4px;
     overflow: hidden;
     height: 35px;
@@ -1181,6 +1183,10 @@ a{
     }
     .movie-card{
         margin: 0px;
+    }
+    .social-block{
+        margin-top: 5px;
+        
     }
 }
 
