@@ -90,7 +90,7 @@ const Carousel = ({
                     .filter((media, index) => index === rand[0])
                     .map((media) => media["overview"])}
                 </p>
-                <div className="position-absolute  ">
+                <div className="loader-parent position-absolute  ">
                   <ModalLoader
                     listId={listId + 0}
                     myfunct={myfunct}
