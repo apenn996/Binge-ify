@@ -129,6 +129,8 @@
     width: 3% !important;
 }
 #carousel{
+    opacity: .99999;
+    z-index: 5;
     background: rgb(0,0,0) !important;
     background: linear-gradient(7deg, rgba(0,0,0,0.7148109243697479) 0%, rgba(0,0,0,0.5859593837535014) 27%, rgba(0,0,0,0.35066526610644255) 54%, rgba(0,0,0,0.05934873949579833) 82%, rgba(255,255,255,0) 100%) !important;
     width: 100%;
@@ -177,10 +179,7 @@
     background: rgb(0,0,0);
     background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.968236561199761) 49%, rgba(0,0,0,0.9540722552507525) 52%, rgba(0,0,0,0.8379249464688828) 60%, rgba(0,0,0,0.7047804705482029) 69%, rgba(0,0,0,0.5688031334377213) 76%, rgba(0,0,0,0.3875000172904125) 83%, rgba(0,0,0,0.16936970567568166) 91%, rgba(0,0,0,0) 99%);
 }
-.loader-parent{
-    z-index: 99999;
-    position: relative;
-}
+
 
 
 
