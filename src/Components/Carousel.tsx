@@ -27,7 +27,7 @@ const Carousel = ({
 }: CarouselProps) => {
 
   return (
-    <div id="carousel" className="carousel slide overflow-hidden">
+    <div id="carousel" className="carousel slide ">
       <div className="carousel-overlay-bottom "></div>
 
       <div className="carousel-indicators ">
@@ -90,7 +90,7 @@ const Carousel = ({
                     .filter((media, index) => index === rand[0])
                     .map((media) => media["overview"])}
                 </p>
-                <div className="loader-parent position-absolute  ">
+                <div className="loader-parent  ">
                   <ModalLoader
                     listId={listId + 0}
                     myfunct={myfunct}
