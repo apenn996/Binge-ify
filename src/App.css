@@ -1004,7 +1004,9 @@ a{
 .navbar-list-container{
     align-items: center;
 }
-
+.movie-card{
+    margin: 10px
+}
 
 
 
@@ -1069,8 +1071,8 @@ a{
  }@media (max-width: 767px) { 
    
    .nav-list{
-    flex-direction: column;
-    align-items: start !important;
+    /* flex-direction: column;
+    align-items: start !important; */
 
    }
    .navbar-list-container{
@@ -1156,7 +1158,7 @@ a{
     }
     .nav-list {
         width: 100%;
-        justify-content: space-between;
+        justify-content: space-around;
         
     }
     .nav-list li{
@@ -1170,12 +1172,15 @@ a{
         top: 10%;
         right: 4%;
     }
-    .headerNav{
+    .header-nav{
         height: 130px;
     }
     .modal-genre-list{
         text-align: center;
         align-items: center;
+    }
+    .movie-card{
+        margin: 0px;
     }
 }
 

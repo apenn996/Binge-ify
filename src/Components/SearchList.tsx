@@ -129,7 +129,7 @@ useEffect(() => {
               <div
                 key={thisMediaItemIndex}
                 tabIndex={-1}
-                className=" m-3 card mb-3 p-0  overflow-hidden text movie-card"
+                className=" card mb-3 p-0  overflow-hidden text movie-card"
                 onMouseDown={() => {
                   // !# currentIndex = thisMediaItemIndex;
                   setIndex(thisMediaItemIndex);
