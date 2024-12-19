@@ -248,7 +248,7 @@ const Movies = () => {
 
   return (
     <div className="theme-dark">
-      <HeaderNav />
+      
 
       <section className="s1 d-flex flex-column align-items-center ">
         <Carousel

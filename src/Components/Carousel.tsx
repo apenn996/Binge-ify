@@ -1,4 +1,5 @@
 import ModalLoader from "./ModalLoader";
+import HeaderNav from "./HeaderNav";
 interface CarouselProps {
   medias: never[];
   typeofmedia: string;
@@ -53,6 +54,7 @@ const Carousel = ({
         ></button>
       </div>
       <div className="carousel-inner  ">
+      <HeaderNav />
         <div className="carousel-item active  ">
           <img
             src={
